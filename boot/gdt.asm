@@ -14,7 +14,6 @@ gdt_start:
         db 0b11001111  ; 2. Flag, limits (16-19)
         db 0x0  ; Base (24-31)
         
-        
     gdt_data:  ; Data segment descriptor
         dw 0xffff  ; Limit (0-15)
         dw 0x0  ; Base (0-15)
